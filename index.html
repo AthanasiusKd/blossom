@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Blossom Microschool</title>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Blossom Microschool">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="assets/img/bms-favicon.png">
+    <meta name="twitter:description" content="Blossom Microschool, we offer a unique approach beyond academics to prioritize holistic development.">
+    <meta name="twitter:title" content="Blossom Microschool">
+    <meta property="og:image" content="assets/img/bms-favicon.png">
+    <meta property="og:description" content="Blossom Microschool, we offer a unique approach beyond academics to prioritize holistic development.">
+    <meta name="description" content="Blossom Microschool, we offer a unique approach beyond academics to prioritize holistic development.">
+    <link rel="icon" type="image/png" sizes="40x44" href="assets/img/bms-favicon.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:400,500,600,700,800,900&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/aos.min.css">
+    <link rel="stylesheet" href="assets/css/added%20styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/swipercss-bundle.min.css">
+</head>
+
+<body style="overflow-x: hidden;">
+    <section id="menu_modal" class="menu-modal">
+        <div style="background: #FFF;">
+            <div class="navbar-mine item-space">
+                <div><img class="img-fluid" src="assets/img/logo-black.svg"></div>
+                <div><button id="menu_close" class="btn btn-nav" type="button">CLOSE<img src="assets/img/ooui_close.svg" style="padding-left: 4px;"></button></div>
+            </div>
+            <div>
+                <div class="row">
+                <div class="col col1">
+                    <a href="index.html">
+                        <p class="links menu-item">home<img src="assets/img/Vector.svg"></p>
+                    </a>
+                    <a href="#about-us">
+                        <p class="links menu-item">ABOUT US<img src="assets/img/Vector.svg"></p>
+                    </a>
+                    <a href="#curriculum">
+                        <p class="links menu-item">our curriculum<img src="assets/img/Vector.svg"></p>
+                    </a>
+                    <a href="#why-choose-us">
+                        <p class="links menu-item">why chose US<img src="assets/img/Vector.svg"></p>
+                    </a>
+                    <a href="#testimonials">
+                        <p class="links menu-item">testimonials<img src="assets/img/Vector.svg"></p>
+                    </a>
+                    <a href="#blog">
+                        <p class="links menu-item">blog<img src="assets/img/Vector.svg"></p>
+                    </a>
+                    <a href="#faq">
+                        <p class="links menu-item">Faq<img src="assets/img/Vector.svg"></p>
+                    </a>
+                    <a href="#">
+                        <p class="links menu-item">book session<img src="assets/img/Vector.svg"></p>
+                    </a>
+                    <a href="#">
+                        <p class="links menu-item">apply here<img src="assets/img/Vector.svg"></p>
+                    </a>
+                    <a href="#">
+                        <p class="links menu-item">contact us<img src="assets/img/Vector.svg"></p>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact_modal" class="contact-modal" style="background-color: #fff;">
+        <div class="navbar-mine item-space">
+            <div><img class="img-fluid" src="assets/img/logo-black.svg"></div>
+            <div>
+                <button id="contact_close" class="btn btn-nav" type="button">CLOSE<img src="assets/img/ooui_close.svg" style="padding-left: 4px;"></button>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center" style="background: #FFF;">
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                <div class="contact-div">
+                    <h1 class="contact-heading">Contact us form</h1>
+                    <div class="d-flex flex-column" style="margin-bottom: 20px;"><label class="form-label">Full name</label><input type="text" id="name" class="name-input" placeholder="John Doe"></div>
+                    <div class="d-flex flex-column" style="margin-bottom: 20px;"><label class="form-label">Phone</label><input type="tel" id="phone" class="name-input" placeholder="+1 555-123-4567"></div>
+                    <div class="d-flex flex-column" style="margin-bottom: 20px;"><label class="form-label">Email</label><input type="email" id="email" class="name-input" placeholder="johndoe@gmail.com"></div>
+                    <div class="d-flex flex-column" style="margin-bottom: 20px;"><label class="form-label">Enter your message</label><textarea id="message" class="message" placeholder="Type your message..."></textarea></div>
+                    <button id="submit_btn" class="btn btn-layout apply-here-btn" type="button">Submit form</button>
+                </div>
+            </div>
+        </div>    
+    </section> 
+    <section style="padding-bottom: 30px;background: url(&quot;assets/img/background-grid.svg&quot;) no-repeat;background-size: auto;">
+        <div class="item-space">
+            <div style="padding-top: var(--bs-navbar-brand-padding-y);padding-bottom: var(--bs-navbar-brand-padding-y);"><img class="img-fluid logo-img" src="assets/img/logo-black.svg"></div>
+            <div style="display: flex;flex-direction: row;">
+                <button id="contact_open" class="btn btn-nav contact-btn" type="button">contact<img src="assets/img/mdi_envelope.svg" style="margin-left: 4px"></button>
+                <button id="menu_open" class="btn btn-nav" type="button" style="padding-left: 22px;">menu<img src="assets/img/jam_menu.svg"></button>
+            </div>
+        </div>
+        <div>
+            <h1 data-aos="zoom-in" data-aos-once="true" class="hero-headingA"><img class="img-fluid" src="assets/img/title-1.svg"><span>in</span>&nbsp;<span class="educatio-yellow">Education</span></h1>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="500" class="btn-div"><button class="btn booksession-btn btn-layout" type="button" style="margin-right: 24px;">Book a session<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right" style="margin-left:8px">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+                </svg></button><button class="btn btn-layout apply-here-btn" type="button">Apply here</button></div>
+        <div class="d-flex flex-row align-items-center" data-aos="fade-up" id="pics-row" style="padding-top: 57px;">
+            <div class="image-container"><img class="img-fluid" src="assets/img/sdg4-image.svg">
+                <div class="overlay">
+                    <h5>SDG4</h5>
+                </div>
+            </div>
+            <div class="image-container" style="margin-right: 10px; margin-left: 10px;"><img class="img-fluid" src="assets/img/third-culture-kids.svg">
+                <div class="overlay">
+                    <h5>Third culture kids</h5>
+                </div>
+            </div>
+            <div class="image-container"><img class="img-fluid" src="assets/img/science-of-learning.svg">
+                <div class="overlay">
+                    <h5>Science of learning</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="third-culture-kids" style="background: #fff;">
+        <div data-aos="zoom-in-up" data-aos-duration="1000"><img class="img-fluid" src="assets/img/SDG4.svg" style="width: 100vw;"></div>
+        <div class="info-div"><img class="icon-img" src="assets/img/green-circle.svg">
+            <p style="margin: 32px 0px;"><span class="span-bold">Blossom Microschool's mission aligns with Sustainable Development Goal &nbsp;</span><span class="span-light">4: Quality Education, ensuring inclusive access for all. We provide quality education to vulnerable populations, breaking the cycle of poverty and promoting mobility. By fostering diversity, equity, and inclusion, we create a supportive environment that celebrates cultural diversity and reduces educational inequalities, empowering students to become global citizens.</span></p><button class="btn get-in-touch-btn btn-layout" type="button" style="border-color: #06C07D">Get in touch today<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right" style="margin-left:8px">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+                </svg></button>
+        </div>
+        <div class="d-flex justify-content-center" style="width: 100vw;"><img data-aos="zoom-out-up" data-aos-duration="500" data-aos-once="true" src="assets/img/video-img.svg" style="width: 82vw;margin-bottom: 80px;"></div>
+        <div class="more-info-div">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <h1 class="info-heading">Educational programme for third-cultured kids</h1>
+                    <p class="info-para">Our dedicated academic programme builds RESILIENCE, GRIT and CONFIDENCE in children who spend a significant part of their developmental years outside their parents' home culture.</p>
+                    <button class="btn btn-layout apply-here-btn" type="button">Apply here
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right" style="margin-left:8px">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+                        </svg></button>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 col2">
+                    <div class="list-div">
+                        <div><span class="numbers">1</span></div>
+                        <div>
+                            <h1 class="list-heading">Pre-school prep</h1>
+                            <p class="list-para">Jumpstart your child's education with our PreSchool Prep, designed for young learners (ages4-6) not yet in formal schooling. We focus on foundational reading, writing and mathematical skills to give them a strong start!</p>
+                        </div>
+                    </div>
+                    <div class="list-div">
+                        <div><span class="numbers">2</span></div>
+                        <div>
+                            <h1 class="list-heading">Homeschooling</h1>
+                            <p class="list-para">Our Homeschooling services cater to students who find traditional classrooms challenging. We provide a personalised learning environment!</p>
+                        </div>
+                    </div>
+                    <div class="list-div">
+                        <div><span class="numbers">3</span></div>
+                        <div>
+                            <h1 class="list-heading">Tailored - after school tutoring</h1>
+                            <p class="list-para">We offer customised sessions that target specific academic areas for improvement, helping students succeed - at their own pace above their grade level!</p>
+                        </div>
+                    </div>
+                    <div class="list-div">
+                        <div><span class="numbers">4</span></div>
+                        <div>
+                            <h1 class="list-heading">Consultation&nbsp;</h1>
+                            <p class="list-para">Jumpstart your child's education with our PreSchool Prep, designed for young learners (ages4-6) not yet in formal schooling. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="curriculum" style="background: url(&quot;assets/img/curriculum-bg.svg&quot;) no-repeat;background-size: cover;">
+        <div class="curr-div">
+            <div class="heading">
+                <h1 class="curr-heading">Our Curriculum</h1>
+                <p data-aos="fade-up" class="why-us-para">At Blossom, we're committed to shaping tomorrow's leaders. Through personalized education and a values-driven approach, we empower students to unlock their leadership potential. With us, your child isn't just a student; they're a future leader in the making.</p>
+                <div data-aos="fade-up" class="div-container">
+                    <div class="curriculum-div1">
+                        <p class="curriculum-para1">All</p>
+                    </div>
+                    <div class="curriculum-div">
+                        <p class="curriculum-para">Grade 1 - 3</p>
+                    </div>
+                    <div class="curriculum-div" style="border-radius: 16px;background: rgba(255, 255, 255, 0.10);backdrop-filter: blur(9px);margin-left: 8px;">
+                        <p class="curriculum-para">Grade 4 - 6</p>
+                    </div>
+                    <div class="curriculum-div" style="border-radius: 16px;background: rgba(255, 255, 255, 0.10);backdrop-filter: blur(9px);margin-left: 8px;">
+                        <p class="curriculum-para">Grade 7 - 9</p>
+                    </div>
+                    <div class="curriculum-div" style="border-radius: 16px;background: rgba(255, 255, 255, 0.10);backdrop-filter: blur(9px);margin-left: 8px;">
+                        <p class="curriculum-para">Grade 10 - 12</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper cards" id="cards">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <span class="color-strip" style="background-color: #06C07D;"></span>
+                        <div class="card-body">
+                            <div class="curriculum-img" style="background: url(&quot;assets/img/tiger-img.svg&quot;) no-repeat;background-size: cover;"></div>
+                            <div style="padding: 16px;">
+                                <h6 class="cur-card-line1">Science</h6>
+                                <h4 class="cur-card-line2">Zoo tycoon</h4>
+                                <p class="cur-card-line3">Are you equipped to overcome challenge?</p>
+                                <p class="cur-card-line4" style="color: #06C07D;">Grade 8</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <span class="color-strip" style="background-color: #0BDBFE;"></span>
+                        <div class="card-body">
+                            <div class="curriculum-img" style="background: url(&quot;assets/img/Frame1618869360.svg&quot;) no-repeat;background-size: cover;"></div>
+                            <div style="padding: 16px;">
+                                <h6 class="cur-card-line1">Science</h6>
+                                <h4 class="cur-card-line2">Life in Sea</h4>
+                                <p class="cur-card-line3">Are you equipped to overcome challenge?</p>
+                                <p class="cur-card-line4" style="color: #0BDBFE;">Grade 3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <span class="color-strip" style="background-color: #F2004D;"></span>
+                        <div class="card-body">
+                            <div class="curriculum-img" style="background: url(&quot;assets/img/Frame1618869361.svg&quot;) no-repeat;background-size: cover;"></div>
+                            <div style="padding: 16px;">
+                                <h6 class="cur-card-line1">Science</h6>
+                                <h4 class="cur-card-line2">Biology</h4>
+                                <p class="cur-card-line3">Are you equipped to overcome challenge?</p>
+                                <p class="cur-card-line4" style="color: #F2004D;">Grade 5</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <span class="color-strip" style="background-color: #FFC928;"></span>
+                        <div class="card-body">
+                            <div class="curriculum-img" style="background: url(&quot;assets/img/Frame16188693601.svg&quot;) no-repeat;background-size: cover;"></div>
+                            <div style="padding: 16px;">
+                                <h6 class="cur-card-line1">Science</h6>
+                                <h4 class="cur-card-line2">Mathematics</h4>
+                                <p class="cur-card-line3">Are you equipped to overcome challenge?</p>
+                                <p class="cur-card-line4" style="color: #FFC928;">Grade 12</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <span class="color-strip" style="background-color: #06C07D;"></span>
+                        <div class="card-body">
+                            <div class="curriculum-img" style="background: url(&quot;assets/img/tiger-img.svg&quot;) no-repeat;background-size: cover;"></div>
+                            <div style="padding: 16px;">
+                                <h6 class="cur-card-line1">Science</h6>
+                                <h4 class="cur-card-line2">Zoo tycoon</h4>
+                                <p class="cur-card-line3">Are you equipped to overcome challenge?</p>
+                                <p class="cur-card-line4" style="color: #06C07D;">Grade 8</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <span class="color-strip" style="background-color: #0BDBFE;"></span>
+                        <div class="card-body">
+                            <div class="curriculum-img" style="background: url(&quot;assets/img/Frame1618869360.svg&quot;) no-repeat;background-size: cover;"></div>
+                            <div style="padding: 16px;">
+                                <h6 class="cur-card-line1">Science</h6>
+                                <h4 class="cur-card-line2">Life in Sea</h4>
+                                <p class="cur-card-line3">Are you equipped to overcome challenge?</p>
+                                <p class="cur-card-line4" style="color: #0BDBFE;">Grade 3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <span class="color-strip" style="background-color: #F2004D;"></span>
+                        <div class="card-body">
+                            <div class="curriculum-img" style="background: url(&quot;assets/img/Frame1618869361.svg&quot;) no-repeat;background-size: cover;"></div>
+                            <div style="padding: 16px;">
+                                <h6 class="cur-card-line1">Science</h6>
+                                <h4 class="cur-card-line2">Biology</h4>
+                                <p class="cur-card-line3">Are you equipped to overcome challenge?</p>
+                                <p class="cur-card-line4" style="color: #F2004D;">Grade 5</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <span class="color-strip" style="background-color: #06C07D;"></span>
+                        <div class="card-body">
+                            <div class="curriculum-img" style="background: url(&quot;assets/img/tiger-img.svg&quot;) no-repeat;background-size: cover;"></div>
+                            <div style="padding: 16px;">
+                                <h6 class="cur-card-line1">Science</h6>
+                                <h4 class="cur-card-line2">Zoo tycoon</h4>
+                                <p class="cur-card-line3">Are you equipped to overcome challenge?</p>
+                                <p class="cur-card-line4" style="color: #06C07D;">Grade 8</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <span class="color-strip" style="background-color: #0BDBFE;"></span>
+                        <div class="card-body">
+                            <div class="curriculum-img" style="background: url(&quot;assets/img/Frame1618869360.svg&quot;) no-repeat;background-size: cover;"></div>
+                            <div style="padding: 16px;">
+                                <h6 class="cur-card-line1">Science</h6>
+                                <h4 class="cur-card-line2">Life in Sea</h4>
+                                <p class="cur-card-line3">Are you equipped to overcome challenge?</p>
+                                <p class="cur-card-line4" style="color: #0BDBFE;">Grade 3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <span class="color-strip" style="background-color: #F2004D;"></span>
+                        <div class="card-body">
+                            <div class="curriculum-img" style="background: url(&quot;assets/img/Frame1618869361.svg&quot;) no-repeat;background-size: cover;"></div>
+                            <div style="padding: 16px;">
+                                <h6 class="cur-card-line1">Science</h6>
+                                <h4 class="cur-card-line2">Biology</h4>
+                                <p class="cur-card-line3">Are you equipped to overcome challenge?</p>
+                                <p class="cur-card-line4" style="color: #F2004D;">Grade 5</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <span class="color-strip" style="background-color: #FFC928;"></span>
+                        <div class="card-body">
+                            <div class="curriculum-img" style="background: url(&quot;assets/img/Frame16188693601.svg&quot;) no-repeat;background-size: cover;"></div>
+                            <div style="padding: 16px;">
+                                <h6 class="cur-card-line1">Science</h6>
+                                <h4 class="cur-card-line2">Mathematics</h4>
+                                <p class="cur-card-line3">Are you equipped to overcome challenge?</p>
+                                <p class="cur-card-line4" style="color: #FFC928;">Grade 12</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <span class="color-strip" style="background-color: #F2004D;"></span>
+                        <div class="card-body">
+                            <div class="curriculum-img" style="background: url(&quot;assets/img/Frame1618869361.svg&quot;) no-repeat;background-size: cover;"></div>
+                            <div style="padding: 16px;">
+                                <h6 class="cur-card-line1">Science</h6>
+                                <h4 class="cur-card-line2">Biology</h4>
+                                <p class="cur-card-line3">Are you equipped to overcome challenge?</p>
+                                <p class="cur-card-line4" style="color: #F2004D;">Grade 5</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="d-flex flex-row justify-content-center" data-aos="fade-up" style="margin-top: 40px;padding: 8px;margin-bottom: 0px;">
+                <button class="btn curr-btn prev-btn" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-left" style="font-size: 20px; color: #fff">
+                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"></path>
+                    </svg>
+                </button>
+                <button class="btn curr-btn next-btn" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right" style="font-size: 20px;">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="d-flex justify-content-center align-items-center" id="about-us" style="background: url(&quot;assets/img/kids-bg.svg&quot;) center / cover;">
+        <div class="aboutus-div"><img class="icon-img" src="assets/img/red-circle.svg" style="margin: 8px 0px;">
+            <h1 data-aos="zoom-in" class="why-us-heading" style="margin-top: 16px;">Blossom Microschool, we offer a unique approach beyond academics to prioritize holistic development.</h1><button class="btn btn-layout" data-aos="fade-up" data-aos-duration="500" type="button" style="border-color: #fff; margin:32px 0px;">Apply here<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right" style="margin-left:8px">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+                </svg></button>
+        </div>
+    </section>
+    <section id="why-choose-us" style="background: url(&quot;assets/img/why-choose-us.svg&quot;) no-repeat;background-size: cover;">
+        <div>
+            <div>
+                <div class="choose-div">
+                    <div class="header-div"><img class="icon-img" src="assets/img/blue-circle.svg">
+                        <h1 class="why-us-heading">Why choose us</h1>
+                    </div><img src="assets/img/1-4.gif" style="position: absolute;top: 0px;left: 10px;width: 90vw;"><img src="assets/img/2-4.gif" style="position: absolute;top: 0px;right: 50px;width: 30vw;">
+                </div>
+            </div>
+            <p data-aos="fade-up" class="why-us-para" style="position: relative;">Blossom Microschool empowers third culture kids and new Canadian families through personalized education. Aligned with Sustainable Development Goal 4, we use the i5 Framework to ensure inclusive and lifelong learning. Our services—tutoring, homeschool support, online learning, and cultural integration—focus on holistic development, instilling grit, confidence, and academic excellence.</p>
+            <div class="row g-0 row-cols-2 row1">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex flex-column justify-content-between">
+                    <div data-aos="fade-up" class="why-choose-us-tab"><img class="why-choose-us-icon" src="assets/img/personal-img.svg">
+                        <p class="why-choose-us-heading">Personalized Learning Journeys</p>
+                        <p class="why-choose-us-paragraph">Our personalized tutoring services ensure that each child receives tailored support to foster their growth and success.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex flex-column justify-content-between">
+                    <div data-aos="fade-up" data-aos-delay="50" class="why-choose-us-tab"><img class="why-choose-us-icon" src="assets/img/equity-img.svg">
+                        <p class="why-choose-us-heading">Equity and Inclusivity</p>
+                        <p class="why-choose-us-paragraph">We prioritize each child through dedicated mentorship, preparing them for academic excellence and meaningful contributions to society.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex flex-column justify-content-between">
+                    <div data-aos="fade-up" data-aos-delay="100" class="why-choose-us-tab"><img class="why-choose-us-icon" src="assets/img/growth-mindset-img.svg">
+                        <p class="why-choose-us-heading">Growth Mindset</p>
+                        <p class="why-choose-us-paragraph">We foster holistic growth by developing cognitive, emotional, creative, social, and physical skills of each child under our care.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex flex-column justify-content-between">
+                    <div data-aos="fade-up" data-aos-delay="150" class="why-choose-us-tab"><img class="why-choose-us-icon" src="assets/img/goal-setting-img.svg">
+                        <p class="why-choose-us-heading">Goal Setting</p>
+                        <p class="why-choose-us-paragraph">By emphasizing goal setting, experiential learning, mindfulness, and well-being, we empower students to thrive academically and personally.</p>
+                    </div>
+                </div>
+            </div>
+            <div style="position: relative;">
+                <div class="bottom-div"><button class="btn btn-layout" data-aos="fade-up" data-aos-duration="500" type="button" style="border-color: #fff; margin:32px 0px;">Contact us for pricing<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right" style="margin-left:8px">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+                        </svg></button></div><img src="assets/img/3-4.gif" style="position: absolute; bottom: 0px; left:0px;"><img src="assets/img/4-4.gif" style="position: absolute;top: 0px;right: 50px;">
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" style="background-color: #F3F4F4; overflow-y: hidden;">
+        <div class="review-div">
+            <div class="row">
+                <div class="col col3"><img src="assets/img/green-circle-2.svg">
+                    <h1 class="review-heading">Hear what people say</h1>
+                    <p data-aos="fade-up" class="review-para" style="margin-top: 16px;max-width: 1108px;">At Blossom, we're committed to shaping tomorrow's leaders. Through personalized education and a values-driven approach, we empower students to unlock their leadership potential. With us, your child isn't just a student; they're a future leader in the making.</p>
+                </div>
+            </div>
+            <div class="row row2" style="margin-top: 32px; height: 800px;">
+                <div class="vanish col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 col4">
+                    <div data-aos="fade" data-aos-duration="1000" class="testimonial-card" style="background: url(&quot;assets/img/7462_rectangle.svg&quot;) no-repeat;background-size: cover;">
+                        <div style="background: linear-gradient(359deg, #000 1.8%, rgba(0, 0, 0, 0.00) 75.94%);  z-index:1; height:100%; border-radius: inherit;"></div>
+                        <div style="padding: 24px;position: absolute;bottom: 0px;">
+                            <p>The small class sizes and individualized learning plans at Blossom have made a huge difference for my son. He is thriving academically and personally, and I couldn't be happier with the supportive environment."</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5>Anna Thomas</h5>
+                                <div class="d-flex">
+                                    <div class="rounded-circle slide-circle" style="background: #FFC928;"></div>
+                                    <div class="rounded-circle slide-circle"></div>
+                                    <div class="rounded-circle slide-circle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8 d-flex col3">
+                    <div class="d-flex" data-aos="fade-left" style="position: relative;">
+                        <div style="z-index: 2;position: absolute;top: -100px;width: 100%;height: 510px;background: linear-gradient(180deg, #F3F4F4 0%, rgba(243, 244, 244, 0.00) 100%);filter: blur(5px);"></div>
+                        <div style="z-index: 2;position: absolute;bottom: -100px;width: 100%;height: 510px;background: linear-gradient(360deg, #F3F4F4 0%, rgba(243, 244, 244, 0.00) 100%);filter: blur(5px);"></div>
+                    </div>
+                    <div class="row">
+                        <div class="testimonial-container col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 col4">
+                            <div class="testimonial-list">
+                                <div class="testimonial-item">
+                                    <div class="d-flex align-items-end"><img src="assets/img/7510_rectangle.svg">
+                                        <h5>Mark Bowley</h5>
+                                    </div>
+                                    <p class="review-para2">"The community at Blossom is incredibly supportive and nurturing. The teachers truly care about each student's success, both academically and personally. It's a place where my child feels valued and inspired every day."</p>
+                                </div>
+                                <div class="testimonial-item">
+                                    <div class="d-flex align-items-end"><img src="assets/img/7510_rectangle.svg">
+                                        <h5>Eric Downing</h5>
+                                    </div>
+                                    <p class="review-para2">"Blossom's emphasis on character development and leadership has had a profound impact on my child's growth. Beyond academics, they are learning the values and skills needed to be responsible and compassionate leaders."</p>
+                                </div>
+                                <div class="testimonial-item">
+                                    <div class="d-flex align-items-end"><img src="assets/img/7510_rectangle.svg">
+                                        <h5>John Doe</h5>
+                                    </div>
+                                    <p class="review-para2">"Choosing Blossom for my education has been the best decision I've made. The combination of personalized learning, advanced technology, and real-world projects has prepared me for college and beyond."</p>
+                                </div>
+                                <div class="testimonial-item vanish-reverse">
+                                    <div class="d-flex align-items-end"><img src="assets/img/7510_rectangle.svg">
+                                        <h5>okaris</h5>
+                                    </div>
+                                    <p class="review-para2">The small class sizes and individualized learning plans at Blossom have made a huge difference for my son.</p>
+                                </div>
+                                <div class="testimonial-item vanish-reverse">
+                                    <div class="d-flex align-items-end"><img src="assets/img/7510_rectangle.svg">
+                                        <h5>Eden Jones</h5>
+                                    </div>
+                                    <p class="review-para2">Blossom has transformed my child's learning experience. The personalized attention and project-based approach have helped my daughter develop a true passion for learning. She's more engaged and excited about school than ever before!"</p>
+                                </div>
+                                <div class="testimonial-item vanish-reverse">
+                                    <div class="d-flex align-items-end"><img src="assets/img/7510_rectangle.svg">
+                                        <h5>Dave Schist</h5>
+                                    </div>
+                                    <p class="review-para2">The personalized attention and project-based approach have helped my daughter develop a true passion for learning. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-container vanish col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 col3">
+                            <div class="testimonial-list">
+                                <div class="testimonial-item">
+                                    <div class="d-flex align-items-end"><img src="assets/img/7510_rectangle.svg">
+                                        <h5>okaris</h5>
+                                    </div>
+                                    <p class="review-para2">The small class sizes and individualized learning plans at Blossom have made a huge difference for my son.</p>
+                                </div>
+                                <div class="testimonial-item">
+                                    <div class="d-flex align-items-end"><img src="assets/img/7510_rectangle.svg">
+                                        <h5>Eden Jones</h5>
+                                    </div>
+                                    <p class="review-para2">Blossom has transformed my child's learning experience. The personalized attention and project-based approach have helped my daughter develop a true passion for learning. She's more engaged and excited about school than ever before!"</p>
+                                </div>
+                                <div class="testimonial-item">
+                                    <div class="d-flex align-items-end"><img src="assets/img/7510_rectangle.svg">
+                                        <h5>Dave Schist</h5>
+                                    </div>
+                                    <p class="review-para2">The personalized attention and project-based approach have helped my daughter develop a true passion for learning. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog">
+        <div class="article-div"><img class="icon-img" src="assets/img/yellow-circle.svg">
+            <p class="paragraph_1">See the latest</p>
+            <div class="row" data-aos="fade-up">
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4"><img class="img-fluid" src="assets/img/Image.svg" style="margin-bottom: 24px;">
+                    <div class="d-flex flex-row" style="max-height: 29px;">
+                        <div style="border-radius: 10px;background: #FFC928;max-width: 84px;padding-right: 8px;padding-left: 8px;">
+                            <p class="para_1" style="max-width: 68px;padding-top: 4px;padding-bottom: 4px;">Education</p>
+                        </div>
+                        <div style="margin-bottom: 0px;padding-left: 16px;">
+                            <p class="read_title" style="padding-top: 4px;">5 mins read</p>
+                        </div>
+                    </div>
+                    <h4 style="margin-top: 16px;">Building Leaders at Blossom</h4>
+                    <p class="para_card" style="margin-top: 8px;margin-bottom: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    <div class="d-flex flex-row" style="margin-top: 24px;">
+                        <p class="para_card">read more</p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-right" style="padding-left: 8px;font-size: 24px;color: var(--bs-emphasis-color);">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4"><img class="img-fluid" src="assets/img/Image1.svg" style="margin-bottom: 24px;">
+                    <div class="d-flex flex-row" style="max-height: 29px;">
+                        <div style="border-radius: 10px;background: #FFC928;max-width: 84px;padding-right: 8px;padding-left: 8px;">
+                            <p class="para_1" style="max-width: 68px;padding-top: 4px;padding-bottom: 4px;">Career</p>
+                        </div>
+                        <div style="margin-bottom: 0px;padding-left: 16px;">
+                            <p class="read_title" style="padding-top: 4px;">5 mins read</p>
+                        </div>
+                    </div>
+                    <h4 style="margin-top: 16px;">College and Career Readiness</h4>
+                    <p class="para_card" style="margin-top: 8px;margin-bottom: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    <div class="d-flex flex-row" style="margin-top: 24px;">
+                        <p class="para_card">read more</p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-right" style="padding-left: 8px;font-size: 24px;color: var(--bs-emphasis-color);">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4"><img class="img-fluid" src="assets/img/Image3.svg" style="margin-bottom: 24px;">
+                    <div class="d-flex flex-row" style="max-height: 29px;">
+                        <div style="border-radius: 10px;background: #FFC928;max-width: 84px;padding-right: 8px;padding-left: 8px;">
+                            <p class="para_1" style="max-width: 68px;padding-top: 4px;padding-bottom: 4px;">Education</p>
+                        </div>
+                        <div style="margin-bottom: 0px;padding-left: 16px;">
+                            <p class="read_title" style="padding-top: 4px;">5 mins read</p>
+                        </div>
+                    </div>
+                    <h4 style="margin-top: 16px;">Future of Education</h4>
+                    <p class="para_card" style="margin-top: 8px;margin-bottom: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    <div class="d-flex flex-row" style="margin-top: 24px;">
+                        <p class="para_card">read more</p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-right" style="padding-left: 8px;font-size: 24px;color: var(--bs-emphasis-color);">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="about-div">
+            <h1 class="heading-founder">About the Founder</h1>
+            <div class="founder-div" style="margin-top: 40.77px;">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5">
+                        <div style="display: flex;justify-content: center;"><img class="img-fluid" data-aos="fade" data-aos-duration="1000" src="assets/img/Rectangle%2020.svg"></div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7">
+                        <p class="founder-para">Jane Doe, the founder of Blossom Microschool, brings over 15 years of experience in education. With a Master’s degree in Education and specialized training in child psychology and multicultural education, Jane is exceptionally qualified to lead and nurture young minds. Her diverse background includes work in international schools, special education programs, and community learning centers, equipping her to address the unique challenges faced by third culture kids.<br><br>Jane’s hands-on approach ensures each child receives personalized attention and care, fostering an environment of inclusivity and cultural sensitivity. Under her leadership, Blossom Microschool has become a nurturing haven where children thrive academically, emotionally, and socially. Jane’s commitment to quality education and her ability to connect with students from diverse backgrounds empower them to succeed in a globalized world.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq" style="background: var(--bs-secondary-bg);">
+        <div class="faq-div">
+            <div><img class="icon-img" src="assets/img/black-circle.svg">
+                <h1 class="faq-heading">Frequently Asked Questions</h1>
+            </div>
+            <div style="margin-bottom: 48px;">
+                <div class="accordion" role="tablist" id="accordion-1" style="background: var(--bs-secondary-bg);">
+                    <div class="accordion-item" data-aos="fade-up" style="margin-bottom: 16px;">
+                        <h2 class="accordion-header" role="tab"><button class="accordion-button faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="true" aria-controls="accordion-1 .item-1">What is blossom?</button></h2>
+                        <div class="accordion-collapse collapse show item-1" role="tabpanel" data-bs-parent="#accordion-1">
+                            <div class="accordion-body">
+                                <p class="faq-answer">Blossom is an innovative educational institution that offers personalized, project-based learning experiences for junior and senior high school students. Our approach focuses on holistic development, integrating academics with character building, leadership, and community involvement, all rooted in Christian values.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" data-aos="fade-up" style="margin-bottom: 16px;">
+                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-2" aria-expanded="false" aria-controls="accordion-1 .item-2">What makes Blossom different from others?</button></h2>
+                        <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-1">
+                            <div class="accordion-body">
+                                <p class="faq-answer">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" data-aos="fade-up" style="margin-bottom: 16px;">
+                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3">How does personalized learning work at Blossom?</button></h2>
+                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                            <div class="accordion-body">
+                                <p class="faq-answer">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" data-aos="fade-up" style="margin-bottom: 16px;">
+                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-4" aria-expanded="false" aria-controls="accordion-1 .item-4">What values underpin Blossom’s educational approach?</button></h2>
+                        <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-1">
+                            <div class="accordion-body">
+                                <p class="faq-answer">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" data-aos="fade-up">
+                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-5" aria-expanded="false" aria-controls="accordion-1 .item-5">How does Blossom prepare students for the future?</button></h2>
+                        <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#accordion-1">
+                            <div class="accordion-body">
+                                <p class="faq-answer">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="faq-par1">Still have a question?</p>
+                <p class="faq-par2">Kindly book a session with us today</p>
+            </div>
+            <div class="d-flex flex-row justify-content-center"><button class="btn btn-layout apply-here-btn" data-aos="fade-up" data-aos-duration="500" type="button">Book a session with us</button></div>
+        </div>
+    </section>
+    <section style="background: url(&quot;assets/img/background-grid.svg&quot;) repeat;background-size: auto;">
+        <div class="image-div">
+            <div>
+                <h1 class="gallery-head">The future of education<br>begins here</h1>
+                <div data-aos="fade-up" data-aos-duration="500" class="btn-div"><button class="btn booksession-btn btn-layout" type="button" style="margin-right: 24px;">Book a session<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right" style="margin-left:8px">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+                        </svg></button><button class="btn btn-layout apply-here-btn" type="button">Apply here</button></div>
+                <div class="container" data-aos="zoom-in" style="padding-right: 0px;padding-left: 0px;margin-left: 0px;margin-right: 0px;width: 100vw;">
+                    <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3 photos" data-bss-baguettebox="" style="margin-top: 14px;width: 100vw;">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/Rectangle%204b.svg"></a></div>
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/Rectangle%202a.svg"></a></div>
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/Rectangle%204a.svg"></a></div>
+                    </div>
+                    <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3 photos" data-bss-baguettebox="" style="margin-top: 14px;width: 100vw;">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/Rectangle%202a.svg"></a></div>
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/Rectangle%202b.svg"></a></div>
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/Rectangle%205a.svg"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="py-4 footer-div">
+                <div><img src="assets/img/logo-black.svg">
+                    <p class="footer-para" style="margin-top: 28px;">Edmonton, Alberta, Canada.</p>
+                </div>
+                <div class="footer-note">
+                    <p class="footer-para">All rights reserved.</p>
+                    <p class="footer-para">Privacy policy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/swiperjs-bundle.min.js"></script>
+    <script src="assets/js/swipe.js"></script>
+</body>
+
+</html>
